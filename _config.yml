@@ -22,7 +22,7 @@ description: >- # used by seo meta and the atom feed
   Explora mi rincón digital en el que comparto artículos a modo de diario personal público. Reflexiones, programación y colecciones de ideas en un sitio web responsive y minimalista. 
 
 include:
-  - 404.html
+  - 404.md
   
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -187,7 +187,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
-  - 404.md 
+  - 404.html
 
 jekyll-archives:
   enabled: [categories, tags]
