@@ -171,8 +171,8 @@ defaults:
       type: diario
     values:
       layout: post
-      permalink: /diario/:year/:month/:day/:title/
-      categories: ["diario"]
+      permalink: /diario/:year/:month/:day/
+
 sass:
   style: compressed
 
