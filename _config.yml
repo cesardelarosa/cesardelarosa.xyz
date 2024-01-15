@@ -172,6 +172,7 @@ defaults:
     values:
       layout: post
       permalink: /diario/:year/:month/:day/:title/
+      categories: ["diario"]
 sass:
   style: compressed
 
