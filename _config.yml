@@ -132,6 +132,10 @@ collections:
   tabs:
     output: true
     sort_by: order
+  diario:
+    output: true
+    sort_by: date
+    order: reverse
 
 defaults:
   - scope:
@@ -162,7 +166,12 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
-
+  - scope:
+      path: ""
+      type: diario
+    values:
+      layout: post
+      permalink: /diario/:year/:month/:day/:title/
 sass:
   style: compressed
 
