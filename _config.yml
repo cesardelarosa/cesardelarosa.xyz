@@ -79,7 +79,7 @@ avatar: "/assets/img/profile/profile.jpg"
 # boolean type, the global switch for TOC in posts.
 toc: true
 
-plugins:
+  #plugins:
   #  - jekyll-seo-tag
 
 comments:
