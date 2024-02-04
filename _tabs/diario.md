@@ -27,8 +27,8 @@ Elige aquí la fecha del día que desees leer:
 
 <input type="text" id="fecha-selector">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         flatpickr("#fecha-selector", {
@@ -38,11 +38,11 @@ Elige aquí la fecha del día que desees leer:
             }
         });
 
-	function redirectToPage(dateStr) {
-        	var formattedDate = dateStr.split("-").join("/");
-        	var pageURL = "/diario/" + formattedDate;
-       		window.location.href = pageURL;
-    	}
-   });
+        function redirectToPage(dateStr) {
+            var formattedDate = dateStr.split("-").join("/");
+            var pageURL = "/diario/" + formattedDate;
+            window.location.href = pageURL;
+        }
+    });
 </script>
 
