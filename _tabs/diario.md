@@ -37,12 +37,12 @@ Elige aquí la fecha del día que desees leer:
                 redirectToPage(dateStr);
             }
         });
-    });
 
-    function redirectToPage(dateStr) {
-        var formattedDate = dateStr.split("-").join("/");
-        var pageURL = "/diario/" + formattedDate;
-        window.location.href = pageURL;
-    }
+	function redirectToPage(dateStr) {
+        	var formattedDate = dateStr.split("-").join("/");
+        	var pageURL = "/diario/" + formattedDate;
+       		window.location.href = pageURL;
+    	}
+   });
 </script>
 
