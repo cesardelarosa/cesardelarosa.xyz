@@ -1,0 +1,65 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://cesardelarosa.xyz/</id>
+  <title>César de la Rosa</title>
+  <subtitle>Explora mi rincón digital en el que comparto artículos a modo de diario personal público. Reflexiones, programación y colecciones de ideas en un sitio web responsive y minimalista. </subtitle>
+  <updated>2024-02-10T15:16:43+01:00</updated>
+  <author>
+    <name>César de la Rosa</name>
+    <uri>https://cesardelarosa.xyz/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://cesardelarosa.xyz/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="https://cesardelarosa.xyz/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 César de la Rosa </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>42 Madrid, una crítica</title>
+    <link href="https://cesardelarosa.xyz/posts/cuarentaydos/" rel="alternate" type="text/html" title="42 Madrid, una crítica" />
+    <published>2024-01-11T00:00:00+01:00</published>
+  
+    <updated>2024-02-10T15:16:40+01:00</updated>
+  
+    <id>https://cesardelarosa.xyz/posts/cuarentaydos/</id>
+    <content src="https://cesardelarosa.xyz/posts/cuarentaydos/" />
+    <author>
+      <name>César de la Rosa</name>
+    </author>
+
+  
+    
+    <category term="Programación" />
+    
+    <category term="42 Madrid" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  No se revela información “secreta” del proceso de la piscina.
+
+
+¿Qué es 42Madrid?
+
+Durante el mes de Julio de 2023 estuve yendo diariamente al Campus 42 de Madrid en Distrito Telefónica. Era lo que se llama allí una piscina, un periodo de 26 días en el que puedes acceder a sus instalaciones en cualquier hora del día y debes ir presentando proyectos de programación (los primeros días como int...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
