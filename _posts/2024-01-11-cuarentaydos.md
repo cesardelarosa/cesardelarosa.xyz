@@ -1,7 +1,7 @@
 ---
 title: "42 Madrid, una crítica"
 data: 2023/01/10
-categories: ["42", Piscina]
+categories: [Programación, "42 Madrid"]
 tags: [opinión]
 ---
 > No se revela información "secreta" del proceso de la piscina.
