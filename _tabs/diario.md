@@ -16,7 +16,6 @@ order: 1
         box-shadow: none; /* Oculta la sombra de la barra superior */
         border: none; /* Oculta el borde de la barra superior */
     }
-
 </style>
 
 Comparto en entradas diarias mis reflexiones y actividades. En un internet dominado por el consumo de contenido.
@@ -45,4 +44,3 @@ Elige aquí la fecha del día que desees leer:
         }
     });
 </script>
-
