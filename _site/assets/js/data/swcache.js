@@ -52,7 +52,7 @@ const allowedDomains = [
     'www.google-analytics.com',
   
 
-  'cesardelarosa.xyz',
+  'localhost:4000',
 
   
 
