@@ -15,12 +15,12 @@ platforms:
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
   - type: WhatsApp
-  - icon: "fab fas-whatsapp"
-  - link: "https://wa.me/?text=TITLE%20URL"
+    icon: "fab fas-whatsapp"
+    link: "https://wa.me/?text=TITLE%20URL"
 
   - type: Instagram
-  - icon: "fab fas-instagram"
-  - link: "https://www.instagram.com/stories/create/?utm_source=ig_web_share_sheet&title=Gran%20Artículo:%20&url=URL"
+    icon: "fab fas-instagram"
+    link: "https://www.instagram.com/stories/create/?utm_source=ig_web_share_sheet&title=Gran%20Artículo:%20&url=URL"
 
   # Uncomment below if you need to.
   #
