@@ -15,18 +15,18 @@ platforms:
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
   - type: WhatsApp
-    icon: "fab fas-whatsapp"
+    icon: "fab fa-whatsapp"
     link: "https://wa.me/?text=TITLE%20URL"
-
-  - type: Instagram
-    icon: "fab fas-instagram"
-    link: "https://www.instagram.com/stories/create/?utm_source=ig_web_share_sheet&title=Gran%20Artículo:%20&url=URL"
+      
+      # - type: Instagram
+      # icon: "fab fa-instagram"
+      # link: "https://www.instagram.com/stories/create/?utm_source=ig_web_share_sheet&title=Gran%20Artículo:%20&url=URL"
 
   # Uncomment below if you need to.
   #
-  # - type: Linkedin
-  #   icon: "fab fa-linkedin"
-  #   link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
+   - type: Linkedin
+     icon: "fab fa-linkedin"
+     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
