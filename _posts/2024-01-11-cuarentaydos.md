@@ -1,5 +1,6 @@
 ---
 title: "42 Madrid, una crítica"
+excerpt: "Mi experiencia y opinión (sin grandes spoilers) de mi piscina en 42 Madrid en Julio de 2023"
 data: 2023/01/10
 categories: ["Programación", "42"]
 tags: [opinión, experiencias]
