@@ -3,16 +3,18 @@ icon: fas fa-book
 order: 1
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr@latest"></script>
+
 <style>
     #fecha-selector {
         text-align: center;
-        display: none;
         margin: 0 auto;
-        width: 0%; /* Puedes ajustar el ancho según tus preferencias */
+        width: 200px; /* Ancho inicial del input */
     }
 
     .flatpickr-calendar {
-        display: block !important;
         box-shadow: none; /* Oculta la sombra de la barra superior */
         border: none; /* Oculta el borde de la barra superior */
     }
@@ -25,9 +27,7 @@ Mantener un diario público actualizado cada día implica mantener una cierta au
 Elige aquí la fecha del día que desees leer:
 
 <input type="text" id="fecha-selector">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         flatpickr("#fecha-selector", {
@@ -44,3 +44,4 @@ Elige aquí la fecha del día que desees leer:
         }
     });
 </script>
+
