@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	maxDate: "today",
 	minDate: "2024-01-01",
         inline: true,
-	locale: Spanish,
+	locale: "Spanish",
         onChange: function(selectedDates, dateStr, instance) {
             redirectToPage(dateStr);
         }
