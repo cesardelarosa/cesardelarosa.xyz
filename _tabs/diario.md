@@ -4,6 +4,8 @@ order: 1
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/es.js"></script>
 
 <div id="fecha-selector"></div>
 

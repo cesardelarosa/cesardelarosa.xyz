@@ -1,5 +1,5 @@
 import flatpickr from "flatpickr";
-import es from "flatpickr/dist/l10n/es.js"; // Importa el archivo de idioma español
+import es from "flatpickr/dist/l10n/es.js";
 
 document.addEventListener('DOMContentLoaded', function() {
     flatpickr("#fecha-selector", {
@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	"locale": {
 		"firstDayOfWeek": 1
 	},
-        locale: es, // Configura el idioma español
-        weekStart: 1, // Configura para que las semanas empiecen en lunes (0 para domingo, 1 para lunes, etc.)
+        weekStart: 1,
         onChange: function(selectedDates, dateStr, instance) {
             redirectToPage(dateStr);
         }
