@@ -1,12 +1,12 @@
-import flatpickr from "flatpickr"
-import { es } from "flatpickr/dist/l10n/es.js"
+import flatpickr from "flatpickr";
+import { Spanish } from "flatpickr/dist/l10n/es.js";
 
 document.addEventListener('DOMContentLoaded', function() {
     flatpickr("#fecha-selector", {
 	maxDate: "today",
 	minDate: "2024-01-01",
         inline: true,
-	"locale": es,
+	"locale": Spanish,
         onChange: function(selectedDates, dateStr, instance) {
             redirectToPage(dateStr);
         }
