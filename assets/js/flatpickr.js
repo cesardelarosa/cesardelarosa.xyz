@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	maxDate: "today",
 	minDate: "2024-01-01",
         inline: true,
-	"locale": {
-		"firstDayOfWeek": 1
-	},
-        weekStart: 1,
+	"locale": es,
         onChange: function(selectedDates, dateStr, instance) {
             redirectToPage(dateStr);
         }
