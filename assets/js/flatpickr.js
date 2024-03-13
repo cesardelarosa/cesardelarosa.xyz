@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	maxDate: "today",
 	minDate: "2024-01-01",
         inline: true,
+	"locale": {
+		"firstDayOfWeek": 1
+	},
         locale: es, // Configura el idioma español
         weekStart: 1, // Configura para que las semanas empiecen en lunes (0 para domingo, 1 para lunes, etc.)
         onChange: function(selectedDates, dateStr, instance) {
