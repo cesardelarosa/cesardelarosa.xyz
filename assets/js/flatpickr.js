@@ -1,4 +1,5 @@
 import flatpickr from "flatpickr";
+import "flatpickr/dist/themes/dark.css";
 
 document.addEventListener('DOMContentLoaded', function() {
     flatpickr("#fecha-selector", {

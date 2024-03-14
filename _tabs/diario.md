@@ -3,7 +3,6 @@ icon: fas fa-book
 order: 1
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.css">
 
 <div id="fecha-selector"></div>
 
