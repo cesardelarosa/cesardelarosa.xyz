@@ -1,5 +1,7 @@
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const theme = isDarkMode ? "dark" : "light";
 import flatpickr from "flatpickr";
-import "flatpickr/dist/themes/dark.css";
+import ("flatpickr/dist/themes/" + theme + ".css");
 
 document.addEventListener('DOMContentLoaded', function() {
     flatpickr("#fecha-selector", {
@@ -28,4 +30,3 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = pageURL;
     }
 });
-
