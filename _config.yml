@@ -14,9 +14,9 @@ timezone: Europe/Madrid
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: César de la Rosa # the main title
+title: César de la Rosa
 
-tagline: Web personal para mis proyectos y artículos (en construcción) # it will display as the sub-title
+tagline: Web personal para mis proyectos y artículos.
 
 description: >- # used by seo meta and the atom feed
   Explora mi rincón digital en el que comparto artículos a modo de diario personal público. Reflexiones, programación y colecciones de ideas en un sitio web responsive y minimalista. 
